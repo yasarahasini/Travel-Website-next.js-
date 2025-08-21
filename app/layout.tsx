@@ -5,6 +5,7 @@ import "./globals.css";
 
 
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Home/Footer/Footer";
 
 
 
@@ -39,7 +40,7 @@ export default function RootLayout({
       >
         <ResponsiveNav/>
         {children}
-        footer
+    <Footer/>
       </body>
     </html>
   );
